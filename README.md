@@ -22,13 +22,3 @@ A quantitative analytics application designed for financial risk assessment and 
 * **Financial Data**: yfinance
 * **Visualization**: Matplotlib, Seaborn
 
-## Setup and Installation
-
-### Prerequisites
-Ensure Python is installed on your system. 
-
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone <your-repository-url>
-   cd <your-repository-folder>
