@@ -1,32 +1,13 @@
 Market Risk and Portfolio Optimisation Engine
-This application is a quantitative risk analytics tool designed for evaluating financial market data. It provides functionality for both single-stock risk analysis and multi-asset portfolio optimisation.
-Core Features
+A quantitative analytics application designed for financial risk assessment and portfolio management. The engine computes various risk metrics, performs statistical diagnostics on asset returns, and identifies optimal portfolio allocations based on Modern Portfolio Theory.
+Features
 Single Stock Analysis
-Risk Metrics: Computes Historical VaR, Parametric VaR, and Monte Carlo VaR.  
-PY
-Expected Shortfall: Calculates the average loss exceeding the Value at Risk threshold.  
-PY
-Statistical Diagnostics: Performs Jarque-Bera testing to assess normality and identifies potential fat-tail risks.  
-PY
-Visualization: Provides return distribution plots and scatter plots to visualize VaR breaches over time.  
-PY
+Risk Metrics: Calculates Value at Risk (VaR) using Historical, Parametric, and Monte Carlo methodologies.
+Expected Shortfall: Computes the average loss beyond the VaR threshold to quantify tail risk.
+Statistical Diagnostics: Employs Jarque-Bera testing to assess return distributions and identifies non-normal, fat-tail behavior.
+Visualization: Generates distribution plots and time-series breach scatter plots for performance monitoring.
 Portfolio Optimisation
-Efficient Frontier: Simulates up to 100,000 portfolio combinations to identify the Efficient Frontier.  
-PY
-Sharpe Ratio Maximization: Automatically identifies the optimal portfolio allocation that maximizes the Sharpe Ratio.  
-PY
-Correlation Analysis: Generates a heatmap to evaluate the diversification benefits of selected assets.  
-PY
-Portfolio Risk: Extends VaR and Expected Shortfall calculations to the optimized portfolio.  
-PY
-Technical Stack
-Framework: Streamlit  
-PY
-Data Handling: Pandas, NumPy  
-PY
-Financial Data: yfinance  
-PY
-Visualization: Matplotlib, Seaborn  
-PY
-Statistical Analysis: SciPy  
-PY
+Efficient Frontier: Simulates large-scale portfolio combinations to visualize the trade-off between risk and return.
+Optimal Allocation: Identifies the portfolio maximizing the Sharpe Ratio.
+Correlation Analysis: Provides a heatmap of asset returns to assess diversification benefits.
+Portfolio Risk: Extends VaR and Expected Shortfall analytics to multi-asset portfolios.
